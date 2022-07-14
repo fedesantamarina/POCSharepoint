@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "poc-org-chart-client-side-solution",
+    "id": "c98f3bed-d940-4552-bf31-97dbe3572c07",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "poc-org-chart description"
+      },
+      "longDescription": {
+        "default": "poc-org-chart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "poc-org-chart Feature",
+        "description": "The feature that activates elements of the poc-org-chart solution.",
+        "id": "874f6f17-473a-42fd-8390-29deb1f08946",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/poc-org-chart.sppkg"
+  }
+}

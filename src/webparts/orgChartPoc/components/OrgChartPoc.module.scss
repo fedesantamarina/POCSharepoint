@@ -1,0 +1,96 @@
+.orgChartPoc {
+  .orgTree {
+    margin-bottom: 20px;
+    .orgTreeHeader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+    }
+    .orgTreeRoot {
+      display: flex;
+      width: 300px;
+      border: 1px solid #000;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .orgTreeNodes {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
+    .orgTreeNode {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      border: 1px solid #000;
+    }
+    .orgTreeNodeAvatar {
+      display: flex;
+    }
+    .orgTreeNodeName {
+      display: flex;
+    }
+    .linecontainer1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 20px;
+    }
+    .complement {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 20px;
+    }
+    .line {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      border-left: 1px solid #000;
+      height: 20px;
+    }
+    .linecontainer2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 20px;
+    }
+    .lineLeft {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      border-top: 1px solid #000;
+      border-top-left-radius: 5px;
+      border-left: 1px solid #000;
+      height: 20px;
+    }
+    .lineRight {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      border-top: 1px solid #000;
+      border-top-right-radius: 5px;
+      border-right: 1px solid #000;
+      height: 20px;
+    }
+  }
+}
